@@ -1,0 +1,244 @@
+
+.judul{
+width:100%;
+height:18px;
+float:left;
+margin: 0 auto;
+color:white; 
+
+margin-top: 3px;
+font-size: 17px;
+}
+
+.line-color{
+  background-image: url('line.jpg');
+  width: 360px;
+  height: 6px;
+  margin: 0 auto;
+   box-shadow: 0 0 5px 0 #000;
+}
+ 
+
+.header{
+
+  width:100%;
+  height:24px;
+  background-color: #1c93f5;
+  color:white;
+  padding: 10px; 
+  text-align: center;
+  font-size: 36px;
+
+}
+
+
+
+.form-header{
+
+width:340px;
+height:18px;
+  background-image: url('atas.jpg');
+margin: 0 auto;
+/*  border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;*/
+color:white;
+ box-shadow: 0 0 5px 0 #000;
+text-align: center;
+padding: 10px;
+font-size: 18px;
+/*  box-shadow: 0 0 5px 0 #fff;*/
+}
+.form-button{
+width:340px;
+height:18px;
+background-color: #f0f0f0;
+margin: 0 auto;
+color:#000000;
+text-align: center;
+padding: 10px;
+font-size: 15px;
+ box-shadow: 0 0 5px 0 #000;
+
+}
+
+.line{
+width:360px;
+height:5px;
+background-color: #364387;
+margin: 0 auto;
+color:#57aa03;
+text-align: center;
+border-top-left-radius: 0px;
+
+}
+
+
+.home{
+width:47.2%;
+height:15px;
+background-color: #676465;
+margin: 0 auto;
+color:#57aa03;
+text-align: center;
+padding: 5px;
+float:left;
+font-size: 15px;
+border-top-left-radius: 0px;
+box-shadow: 0 0 5px 0 #333;
+
+}
+.daftar{
+width:47.2%;
+height:15px;
+background-color: #676465;
+margin: 0 auto;
+color:#57aa03;
+text-align: center;
+padding: 5px;
+float:left;
+font-size: 15px;
+border-top-left-radius: 0px;
+box-shadow: 0 0 5px 0 #333;
+
+}
+.kembali a{
+  color:black;
+  font-family: arial;
+}
+.kembali a:hover{
+  color:#92f800;
+}
+
+/* Form */
+.form {
+  position: relative;
+  z-index: 1;
+  background: #f0f0f0;
+  max-width: 300px;
+  margin: 0 auto ;
+  padding: 30px;
+ box-shadow: 0 0 5px 0 #000;
+  text-align: center;
+}
+.form .thumbnail {
+  width: 300px;
+  height: 170px;
+  margin: 0 auto 60px;
+
+}
+.form .thumbnail img {
+  display: block;
+  width: 80%;
+  margin: auto;
+
+}
+.form input {
+  outline: 0;
+  background: #ffffff;
+  width: 260px;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 13px;
+
+  border-top-right-radius: 3px;
+
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  box-shadow:  0 0 0 1px #364387;
+}
+.icon_user{
+  width:40px;
+  height:42px;
+ background-image: url('tu.jpg');
+  box-shadow:  0 0 0 1px #2b56c5;
+    border-top-left-radius: 3px;
+
+  border-bottom-left-radius: 3px;
+  float: left;
+}
+.icon_pass{
+  width:40px;
+  height:42px;
+ background-image: url('sa.jpg');
+  box-shadow:  0 0 0 1px #2b56c5;
+      border-top-left-radius: 3px;
+
+  border-bottom-left-radius: 3px;
+  float: left;
+}
+
+.icon_ac{
+  width:40px;
+  height:42px;
+ background-image: url('re.jpg');
+  box-shadow:  0 0 0 1px #2b56c5;
+      border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  float: left;
+}
+
+
+
+.form_upp{
+  outline: 0;
+  background: #2a4690;
+  width: 100%;
+  border: 0;
+  padding: 13px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #FFFFFF;
+  font-size: 16px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #EF3B3A;
+  text-decoration: none;
+}
+
+.form a{
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+ 
+ .form a{
+  text-decoration: none;
+  color: #172d44;
+ }
+ .form a:hover{
+  text-decoration: underline;
+  color: blue;
+ }
+
+
+/* END Form */
+/* Demo Purposes */
+body {
+    background-image: url('bg-login.jpg');
+    background-color: #009846;
+    background-size: cover;
+
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.batas{
+  height: 70px;
+}
